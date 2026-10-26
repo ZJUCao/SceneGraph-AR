@@ -1,0 +1,12 @@
+# C++ formatting rules: Allman braces, 4-space indents, 100 columns.
+# Format a file with: clang-format -i <file>
+BasedOnStyle: Microsoft
+ColumnLimit: 100
+IndentWidth: 4
+NamespaceIndentation: All
+PointerAlignment: Right
+AccessModifierOffset: -4
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortLambdasOnASingleLine: Inline
+AlwaysBreakTemplateDeclarations: Yes
+SortIncludes: false

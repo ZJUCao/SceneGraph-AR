@@ -1,0 +1,12 @@
+# Normalize line endings so the scripts work wherever the project is checked out:
+# everything is LF except Windows batch files, which need CRLF.
+* text=auto eol=lf
+*.bat text eol=crlf
+
+# Shell scripts must keep LF even on Windows checkouts
+*.sh text eol=lf
+*.command text eol=lf
+
+# Binary files
+*.png binary
+*.zip binary

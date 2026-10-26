@@ -1,0 +1,13 @@
+# Build output (also holds calibration results and screenshots in build/bin/data/)
+build/
+*.o
+*.exe
+
+# Archives
+*.zip
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.vs/
